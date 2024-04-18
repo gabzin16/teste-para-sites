@@ -1,0 +1,44 @@
+/* Define the purple color palette */
+:root {
+    --black: #000000;
+    --purple-default: #881798;
+    --purple-dark: #520033;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: var(--black);
+    color: var(--purple-dark);
+    padding: 10px 0;
+  }
+  
+  /* Style the navigation bar */
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  /* Style the links with the purple color palette */
+  .purple-link {
+    color: var(--purple-default);
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  /* Hover effect for the links */
+  .purple-link:hover,
+  .purple-link:focus {
+    color: var(--purple-dark);
+  }
+  
+  /* Active state for the links */
+  .purple-link:active {
+    color: var(--black);
+  }
